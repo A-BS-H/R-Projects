@@ -22,8 +22,8 @@ ggplot(data=data, aes(x=CV,y=ADS)) +
  
  ## Ward’s Method
 This method involves an agglomerative clustering algorithm(Bottom-Up). Observations are treated separately
-as singleton clusters. Then, compute the Euclidean distance of each pair and successively merge the most
-similar clusters
+as singleton clusters. Then, computed the Euclidean distance of each pair and successively merged the most
+similar clusters.
 
 ![image](https://user-images.githubusercontent.com/111043457/209178140-373274e8-8afa-44fa-82b7-64d96d2b8bfa.png)
 
