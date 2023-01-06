@@ -1,5 +1,7 @@
 # Regression
 ## Simple Linear Regression
+**Description**\
+The data(cars) give the speed of cars and the distances taken to stop recorded in the 1920s.
 ```
 l <- lm(dist~speed, data = cars)
 summary(l) 
@@ -7,6 +9,8 @@ summary(l)
 <img align="centre" alt="SLR" width="700" height ="400" src="https://user-images.githubusercontent.com/111043457/210221578-3281be81-1ff4-4b5a-9e85-9e72b3646949.png">
 
 ## Multiple Linear Regression
+**Description**\
+Data on motor fuel consumption and related variables, for the year 2001 in the United States. 
 ```
 l2 <- lm(FuelC~Drivers+Income+Miles+Pop+Tax, data = fc)
 summary(l2)
